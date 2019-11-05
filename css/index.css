@@ -62,15 +62,16 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+header{
+    display: flex;
+    padding-right: 10%;
+}
+
 nav{
-	width: 120%;
+	width: 100%;
 	display: flex;
     vertical-align: top;
     padding-left: 5%;
-}
-
-.links{
-    display: flex;
 }
 
 nav a{
@@ -80,6 +81,10 @@ nav a{
     color: grey;
 }
 
+.right-side{
+    padding-left: 15%;
+}
+
 #title{
     width: 85%;
     display: flex;
@@ -87,11 +92,6 @@ nav a{
     padding-left: 15%;
     margin-bottom: 5%;
 }
-
-.right-side{
-    padding-left: 20%;
-}
-
 
 h1{
 	font-size: 80px;
@@ -159,6 +159,10 @@ img{
         padding: 5%;
     }
 
+    .logo{
+        padding-left: 15%;
+    }
+
     .links{
         display: flex;
     }
@@ -187,7 +191,7 @@ img{
     
     nav{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     nav a{
@@ -200,6 +204,10 @@ img{
     .links{
         display: flex;
         flex-direction: column;
+    }
+
+    .logo{
+        order: -1;
     }
 
 
